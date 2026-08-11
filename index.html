@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- スマートフォン表示に必要 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 検索結果などに表示される説明 -->
+  <meta
+    name="description"
+    content="初心者歓迎の架空のバドミントンサークル、DIA Friendsの紹介サイトです。"
+  >
+
+  <title>DIA Friends｜バドミントンサークル</title>
+
+  <!-- style.cssを読み込む -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#top" class="logo">DIA Friends</a>
+
+      <!-- スマートフォン用メニューボタン -->
+      <button
+        class="menu-button"
+        id="menuButton"
+        type="button"
+        aria-label="メニューを開く"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <nav class="navigation" id="navigation">
+        <a href="#about">サークル紹介</a>
+        <a href="#information">活動情報</a>
+        <a href="#activity">活動の様子</a>
+        <a href="#faq">よくある質問</a>
+        <a href="#join" class="nav-join">参加する</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- メイン画像部分 -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="hero-label">初心者・経験者どちらも歓迎</p>
+
+        <h1>
+          バドミントンを通して<br>
+          新しい仲間と出会おう
+        </h1>
+
+        <p class="hero-description">
+          DIA Friendsは、大学生と社会人が楽しく活動する
+          バドミントンサークルです。
+        </p>
+
+        <a href="#join" class="main-button">体験参加について見る</a>
+      </div>
+    </section>
+
+    <!-- サークル紹介 -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-label">ABOUT US</p>
+        <h2>DIA Friendsについて</h2>
+
+        <p class="section-introduction">
+          運動不足を解消したい人から、試合形式で楽しみたい経験者まで、
+          レベルに関係なく参加できる架空のバドミントンサークルです。
+          道具の貸し出しもあるため、初めての人も気軽に参加できます。
+        </p>
+
+        <div class="feature-list">
+          <article class="feature-card">
+            <div class="feature-icon">01</div>
+            <h3>初心者歓迎</h3>
+            <p>
+              ラケットの握り方や打ち方から、経験者が分かりやすく説明します。
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">02</div>
+            <h3>一人でも参加可能</h3>
+            <p>
+              参加者を組み替えながら練習するため、一人でも安心して参加できます。
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">03</div>
+            <h3>道具の貸し出し</h3>
+            <p>
+              体験参加者向けのラケットを用意しています。室内用シューズは必要です。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 活動情報 -->
+    <section class="section section-colored" id="information">
+      <div class="container">
+        <p class="section-label">INFORMATION</p>
+        <h2>活動情報</h2>
+
+        <div class="information-list">
+          <div class="information-item">
+            <p class="information-title">活動日時</p>
+            <p>毎週土曜日　17:00～19:00</p>
+          </div>
+
+          <div class="information-item">
+            <p class="information-title">活動場所</p>
+            <p>青空市民体育館</p>
+          </div>
+
+          <div class="information-item">
+            <p class="information-title">参加費</p>
+            <p>1回500円</p>
+          </div>
+
+          <div class="information-item">
+            <p class="information-title">参加対象</p>
+            <p>大学生・社会人（初心者歓迎）</p>
+          </div>
+
+          <div class="information-item">
+            <p class="information-title">持ち物</p>
+            <p>運動着・室内用シューズ・飲み物</p>
+          </div>
+
+          <div class="information-item">
+            <p class="information-title">貸し出し</p>
+            <p>体験者用ラケットあり</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 活動風景 -->
+    <section class="section" id="activity">
+      <div class="container activity-layout">
+        <div class="activity-image">
+          <img
+            src="images/activity.jpg"
+            alt="バドミントンを楽しんでいるサークルメンバー"
+          >
+        </div>
+
+        <div class="activity-text">
+          <p class="section-label">ACTIVITY</p>
+          <h2>楽しく続けられる活動</h2>
+
+          <p>
+            活動の前半は基礎打ちを行い、後半はダブルスを中心とした
+            ゲーム形式で楽しみます。
+          </p>
+
+          <p>
+            勝敗だけにこだわらず、全員がバドミントンを楽しめる
+            雰囲気を大切にしています。
+          </p>
+
+          <ul class="activity-points">
+            <li>基礎打ちとゲーム練習</li>
+            <li>初心者向けの基本練習</li>
+            <li>参加者同士の交流</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- よくある質問 -->
+    <section class="section section-colored" id="faq">
+      <div class="container faq-container">
+        <p class="section-label">FAQ</p>
+        <h2>よくある質問</h2>
+
+        <details class="faq-item">
+          <summary>バドミントン未経験でも参加できますか？</summary>
+          <p>
+            はい、参加できます。最初はラケットの握り方などから説明します。
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>一人で参加しても大丈夫ですか？</summary>
+          <p>
+            大丈夫です。一人で参加する人も多いという設定のサークルです。
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>ラケットを持っていなくても参加できますか？</summary>
+          <p>
+            体験参加者にはラケットを貸し出しています。
+            室内用シューズと運動着はご用意ください。
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>毎週参加する必要がありますか？</summary>
+          <p>
+            いいえ、都合のよい日だけ参加できます。
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- 参加申し込み -->
+    <section class="join-section" id="join">
+      <div class="container join-content">
+        <p class="section-label section-label-light">JOIN US</p>
+        <h2>まずは体験参加してみませんか？</h2>
+
+        <p>
+          体験参加を希望する人は、下のボタンからお申し込みください。
+        </p>
+
+        <button type="button" class="join-button" id="joinButton">
+          体験参加を申し込む
+        </button>
+
+        <!-- JavaScriptでここにメッセージを表示 -->
+        <p class="form-message" id="formMessage" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <p>© <span id="currentYear"></span> DIA Friends</p>
+    <p class="demo-notice">
+      ※このサイトはWeb制作学習用に作成した架空のサークルサイトです。
+    </p>
+  </footer>
+
+  <!-- script.jsを読み込む -->
+  <script src="script.js"></script>
+</body>
+</html>
