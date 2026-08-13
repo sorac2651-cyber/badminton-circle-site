@@ -66,10 +66,18 @@ button {
 }
 
 .logo {
+  display: inline-block;
   color: #13795b;
-  font-size: 22px;
-  font-weight: bold;
-  letter-spacing: 0.04em;
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  transition: opacity 0.2s ease;
+}
+
+.logo:hover {
+  opacity: 0.85;
 }
 
 .navigation {

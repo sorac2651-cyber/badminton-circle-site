@@ -1,19 +1,17 @@
 ---
 name: frontend-dev
 description: "Use when: developing HTML/CSS/JavaScript features for the badminton-circle-site project; implementing UI components; working on responsive design; debugging frontend issues; optimizing performance"
-applyTo: "**/*.{html,css,js}"
+applyTo: "**/*.{html,css,js}" 
 tools:
-  use:
-    - read_file
-    - replace_string_in_file
-    - multi_replace_string_in_file
-    - grep_search
-    - file_search
-    - get_errors
-    - run_in_terminal
-    - vscode_listCodeUsages
-    - vscode_renameSymbol
-  avoid: []
+  - read_file
+  - replace_string_in_file
+  - multi_replace_string_in_file
+  - grep_search
+  - file_search
+  - get_errors
+  - run_in_terminal
+  - vscode_listCodeUsages
+  - vscode_renameSymbol
 ---
 
 # フロントエンド開発エージェント
