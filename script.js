@@ -38,6 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // 参加ボタンを押したときの動作
   joinButton.addEventListener("click", function () {
     formMessage.textContent =
-      "これは学習用サイトのため、実際の申し込みは送信されません。";
+      "これはWEB動作テスト用サイトのため、実際の申し込みは送信されません。";
   });
 });
